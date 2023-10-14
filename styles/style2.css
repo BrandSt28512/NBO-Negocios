@@ -1,0 +1,201 @@
+body
+{
+  background-color:#f1f1f1;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+/*---------------------------------------------------------------------------------
+Aquí comienza el Header. 
+---------------------------------------------------------------------------------*/
+
+.header_N2
+{
+  background-color:#D3BEE0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  z-index: 100;
+  font-family: 'Roboto Slab', serif;
+}
+
+.header_N2 img
+{
+  padding: 12px 0px 12px 12px;
+}
+
+.header_N2 .barra_busquedaP
+{
+  margin: 20px auto;
+}
+
+.header_N2 .barra_busqueda
+{
+  width: 400px;
+  height: 40px;
+  font-size: 16px;
+  padding: 0px 20px 0px 40px;
+  border-radius: 40px;
+  border: solid #000 2px ;
+  background: url('./resources/lupa.png') 7px center no-repeat;
+}
+
+.sombra_header {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: top 0.4s ease-in-out; 
+}
+
+.icono_usuario img {
+  width: 60px; 
+  height: auto;
+}
+
+.usuario
+{
+  margin-right: 30px;
+}
+
+.menu_usuario {
+  display: none;
+  position: absolute;
+  top: 82%;
+  right: 0;
+  margin-right: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  list-style: none;
+  padding: 0;
+}
+
+.menu_usuario li {
+  padding: 10px;
+}
+
+.menu_usuario a
+{
+  text-decoration: none;
+}
+
+.usuario.active .menu_usuario
+{
+  display: block;
+}
+
+/*---------------------------------------------------------------------------------
+Aquí termina el Header
+---------------------------------------------------------------------------------*/
+
+
+/*---------------------------------------------------------------------------------
+Aquí empieza el Navigation
+---------------------------------------------------------------------------------*/
+
+.nav
+{
+  font-family: 'Roboto Slab', serif;
+  position: fixed;
+  top: 80px;
+  bottom: 0;
+  left: 0;
+  background-color: #b89dc0;
+  padding: 15px;
+  z-index: 2;
+}
+
+.nav-list
+{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: left;
+}
+
+.nav-list li a
+{
+  text-decoration: none;
+  color: black;
+  
+}
+
+/*---------------------------------------------------------------------------------
+Aquí termina el Navigation
+---------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------
+Aquí empieza el Main
+---------------------------------------------------------------------------------*/
+.main
+{
+  font-family: 'Roboto Slab', serif;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 100px;
+  margin-left: 210px;
+}
+
+.main .perfil1 img
+{
+  width: 150px; 
+  height: auto;
+}
+
+.main .productos img
+{
+  width: 100%; 
+  height: 180px;
+  display: flex;
+}
+
+.main .descripcion
+{
+  text-align: inherit;
+  align-items: center;
+  margin: auto;
+  position: relative;
+  font-size: 21px;
+  padding: 4rem;
+  word-wrap: break-word ;
+  max-width: 600px;
+}
+
+.tabla_descripcion
+{
+  max-width: 973px;
+  margin-left: 5%;
+  -webkit-line-clamp: 3;
+  display: flex;
+}
+
+.tabla_descripcion .descripcion
+{ 
+  margin-left: 10px;
+}
+
+.tabla_productos
+{
+  border-collapse: collapse;
+  margin-left: 5%;
+}
+
+.main .perfil1
+{
+  margin: 50px;
+}
+/*
+table ,td {
+  border: 1px solid black;
+  
+}
+*/
+
+
+/*---------------------------------------------------------------------------------
+Aquí termina el Main
+---------------------------------------------------------------------------------*/
