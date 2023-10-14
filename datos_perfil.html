@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="website icon" type="png" href="./resources/Logo_NBO_Mini.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;700&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="./styles/style4.css">
+  <link rel="stylesheet" href="./styles/media_query.css">
+  <script src="https://kit.fontawesome.com/646ac4fad6.js" crossorigin="anonymous"></script>
+  <title>NBO: Negocios Brillantes y Originales</title>
+</head>
+<body>
+
+<!-- CÓDIGO PHP PARA INICIAR SESIÓN
+<?php
+  session_start();
+  if(!isset($_SESSION["usuario"]))
+  {
+    header("Location:./login_usuario.php");
+    exit;
+  }
+?> 
+-->
+
+  <header class="header_N2">
+    <div class="logo-container2">
+    <a href="./index.html"><img src="./resources/Logo_UNI-Ruacs.png" alt="logo UNI" id="logo_UNI"></a>
+    <a href="./index.html"><img src="./resources/Logo_NBO.png" alt="logo NBO" id="logo_NBO"></a>
+    </div>
+    <form class="barra_busquedaP" action="#">
+      <input class="barra_busqueda" type="search" placeholder="Buscar...">
+    </form>
+    
+    <div class="usuario" id="usuario">
+      <div class="icono_usuario">
+        <img src="./resources/Imagen_Usuario_Ejemplo.png" alt="Imagen de perfil del usuario">
+      </div>
+      <ul class="menu_usuario">
+        <li><a href="#">Cuenta</a></li>
+        <li><a href="#">Cerrar Sesión</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <nav class="nav">
+    <div class="nav-list">
+    <li><a href="">Inicio</a></li>
+    <li><a href="">Contactos</a></li>
+    <li><a href="">¿Quiénes somos?</a></li>
+    <li><a href="">¿Cómo empezar?</a></li>
+  </div>
+  <hr>
+  <p><strong>Aguilar, Castillo,<br> Fernández.</strong></p>
+  <p>© Copyright 2023 ‎</p>
+  </nav>
+  <main class="main">
+    <table class="tabla_descripcion">
+      <tr>
+        <td class="imagen_perfil">
+          <img src="./resources/Imagen_Usuario_Ejemplo.png">
+        </td>
+
+        <td class="info_principio">
+          <h3 Class="nombre">Nombre de proyecto</h3>
+        </td>
+        
+        <td class="descripciom">
+          <p>Descripción del proyecto</p>
+        </td>
+        <td class="redes">
+          <h4>Redes sociales</h4>
+          <span class="fb"><i class="fa-brands fa-facebook"></i></span>
+          <span class="tw"><i class="fa-brands fa-x-twitter"></i></span>
+          <span class="ins"><i class="fa-brands fa-instagram"></i></span>
+        </td>
+      </tr>
+      
+      <tr>
+        <td class="info_x">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium numquam aspernatur quia non omnis dicta magni molestiae facere doloribus, quas, dolores, voluptates aut qui ipsa excepturi quae! Dolor, earum ullam.</p>
+        </td>
+      </tr>
+    </table>
+
+    <div class="nombre_productos">
+      <p>Imagenes de los productos:</p>
+    </div>
+
+    <table>
+      <tr>
+        <td class="img_prod">
+          <img src="./resources/poly-cat.jpg">
+        </td>
+
+        <td class="img_prod">
+          <img src="./resources/poly-cat.jpg">
+        </td>
+
+        <td class="img_prod">
+          <img src="./resources/poly-cat.jpg">
+        </td>
+
+        <td class="img_prod">
+          <img src="./resources/poly-cat.jpg">
+        </td>
+      </tr>
+    </table>
+    
+  </main>
+  <script src="./scripts/scritp2.js"></script>
+
+</html>
